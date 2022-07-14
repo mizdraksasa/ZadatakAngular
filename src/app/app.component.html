@@ -1,0 +1,6 @@
+<app-employees-table [employees]="employees" (editLinkClick)="editLinkClick($event)"></app-employees-table>
+
+<br />
+<br />
+
+<app-employees-pie-chart *ngIf="!!employees && !!employees.length" [employees]="employees"></app-employees-pie-chart>

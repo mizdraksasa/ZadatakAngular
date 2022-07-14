@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th class=text-left>Name</th>
+            <th>Total Time in Month</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees" [class.red-backround]="employee.SumHours < 100">
+            <td class=text-left>{{ employee.EmployeeName }}</td>
+            <td>{{ employee.SumHours }} hrs</td>
+            <td><a (click)="edit(employee)" class=edit-link>Edit</a></td>
+        </tr>
+    </tbody>
+</table>

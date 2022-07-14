@@ -1,0 +1,31 @@
+table,
+th,
+td {
+    border: 1px solid #e5e5e5;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.edit-link {
+    text-decoration: underline;
+    color: blue
+}
+
+.text-left {
+    text-align: left;
+    left: 30px;
+    padding: 10px;
+}
+
+.red-backround {
+    background-color: #f4ae9c;
+}
+
+th {
+    background-color: #e5e5e5;
+}
